@@ -62,7 +62,7 @@ class playlist:
         
         uris=response2_json['artists']['items'][0]['uri']
         return uris
-    
+    #### CODE MADE POSSIBLE WITH THE HELP OF GOOGLE ######
     def addSong(self):
         self.LikedVideos()
         uris=[info['spotify_id'] for song,info in final_dict.items()]
@@ -82,7 +82,7 @@ class playlist:
     
         response3_json = response3.json()
         return response3_json
-    
+    ### CODE TAKEN FROM YOUTUBE API DOCUMENTATION #######
     def YTclient(self):
         os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
     
