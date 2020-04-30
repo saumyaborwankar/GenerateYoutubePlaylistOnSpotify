@@ -8,8 +8,8 @@ import googleapiclient.errors
 import requests
 import youtube_dl
 
-username="212nwa3cizmp4knkhwhgnxbci"
-spotify_token="BQDpnkL7LncZ12qIl3NJbuppeL2IgKnwxVogYZz5o9lo__xzcXvxHT9weK_TDHnwVraTJUAIH2znGHhjzZR8RvjwZ8JVlFMRilLSouhk6lqNeun7cA_5Inxx6gGL4CVy5Zm_gKQCEj8SQqS1NJbhaC7e3xSBCwcQXVq9dC7QywgAgZUU2QBTYaaIGwJqGMdUi0uWpUBZ6Tp_WZbfFdMWNOM4puUKHzBudqpwwcvaPPt8d2E_RWgz3m8Zv0p9nNmp0KkP8336usI7i5Gekga5Ulwz1RpekvwV"
+username=""
+spotify_token=""
 
 #curl -X GET "https://api.spotify.com/v1/search?q=tania%20bowra&type=artist" -H "Authorization": "Bearer {}".format(spotify_token)
 query="https://api.spotify.com/v1/search/?q='YT&20playlist'&type=playlist"
